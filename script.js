@@ -5,7 +5,7 @@ let escolhidos = [];
 fetch(API_URL)
   .then(res => res.json())
   .then(data => {
-    const lista = document.getElementById("lista");
+    const lista = document.getElementById("ListaPresentes");
 
     data.forEach(item => {
       const card = document.createElement("div");
