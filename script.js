@@ -1,3 +1,6 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const lista = document.getElementById("lista");
+  if (!lista) return; // <-- ISSO resolve o erro
 const API_URL = "https://script.google.com/macros/s/AKfycbxZl6xy40lCe9h62Elh9XHSU-nsiyO4pTJxeNjCz88Y492BEyxqSkKeaiTxRb5ugGSe/exec";
 
 let escolhidos = [];
@@ -5,7 +8,7 @@ let escolhidos = [];
 fetch(API_URL)
   .then(res => res.json())
   .then(data => {
-    const lista = document.getElementById("ListaPresentes");
+    const lista = document.getElementById("lista");
 
     data.forEach(item => {
       const card = document.createElement("div");
