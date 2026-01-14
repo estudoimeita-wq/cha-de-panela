@@ -1,4 +1,4 @@
-const API_URL = "https://script.google.com/macros/s/AKfycbwdkXrF9K-r9resj86Q4XKnLWhPuNB723L9CKoCTB83tX228GArHRi-ZOm5izYeQdJ5/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbxZl6xy40lCe9h62Elh9XHSU-nsiyO4pTJxeNjCz88Y492BEyxqSkKeaiTxRb5ugGSe/exec";
 
 let escolhidos = [];
 
